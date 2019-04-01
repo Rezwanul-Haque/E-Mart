@@ -1,0 +1,1 @@
+# This is a E-commerce Project for buying daily needs from home.
