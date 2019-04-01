@@ -22,6 +22,7 @@ CUSTOM_MANAGEMENT_APPS = [
 LOCAL_APPS = [
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
+    'shop.apps.ShopConfig',
 ]
 
 INSTALLED_APPS = [
