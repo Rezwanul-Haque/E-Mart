@@ -21,6 +21,7 @@ LOCAL_APPS = [
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
     'shop.apps.ShopConfig',
+    'cart.apps.CartConfig',
 ]
 
 INSTALLED_APPS = [
@@ -79,6 +80,8 @@ USE_L10N = True
 USE_TZ = True
 
 ## Session Related Settings
+
+CART_SESSION_ID = 'cart'
 
 # SESSION_COOKIE_AGE = 1209600(Two Weeks)
 # SESSION_COOKIE_DOMAIN = mydomain.com (enable cross-domain cookies) or None (standard domain cookie)
