@@ -22,6 +22,7 @@ LOCAL_APPS = [
     'accounts.apps.AccountsConfig',
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
+    'orders.apps.OrdersConfig',
 ]
 
 INSTALLED_APPS = [
